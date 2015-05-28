@@ -43,9 +43,24 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubSections\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MinnesotaSampleLottery.BO\MinnesotaSampleLottery.BO.csproj">
+      <Project>{340e7a37-df39-4bec-b33b-0a2a1869b72f}</Project>
+      <Name>MinnesotaSampleLottery.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinnesotaSampleLottery.Common\MinnesotaSampleLottery.Common.csproj">
+      <Project>{353cab2b-100c-444c-836d-db9fe8e5d5a5}</Project>
+      <Name>MinnesotaSampleLottery.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinnesotaSampleLottery.DAL\MinnesotaSampleLottery.DAL.csproj">
+      <Project>{4d89fcc0-df49-4c90-b0b7-e02a6422c3fc}</Project>
+      <Name>MinnesotaSampleLottery.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
