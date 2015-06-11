@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinnesotaSampleLottery.DAL"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinnesotaSampleLottery.Common", "MinnesotaSampleLottery.Common\MinnesotaSampleLottery.Common.csproj", "{353CAB2B-100C-444C-836D-DB9FE8E5D5A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinnesotaSampleLottery.Web", "MinnesotaSampleLottery.Web\MinnesotaSampleLottery.Web.csproj", "{4C6A6528-ECEF-4B6F-AFAA-8310C7C4A253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinnesotaSampleLottery.BLL", "MinnesotaSampleLottery.BLL\MinnesotaSampleLottery.BLL.csproj", "{8BBDAB33-CF9F-4E94-A055-059874C69573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{353CAB2B-100C-444C-836D-DB9FE8E5D5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{353CAB2B-100C-444C-836D-DB9FE8E5D5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{353CAB2B-100C-444C-836D-DB9FE8E5D5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6A6528-ECEF-4B6F-AFAA-8310C7C4A253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6A6528-ECEF-4B6F-AFAA-8310C7C4A253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6A6528-ECEF-4B6F-AFAA-8310C7C4A253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6A6528-ECEF-4B6F-AFAA-8310C7C4A253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBDAB33-CF9F-4E94-A055-059874C69573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBDAB33-CF9F-4E94-A055-059874C69573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBDAB33-CF9F-4E94-A055-059874C69573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBDAB33-CF9F-4E94-A055-059874C69573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

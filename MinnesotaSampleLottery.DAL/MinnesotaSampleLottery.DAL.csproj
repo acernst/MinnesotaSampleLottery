@@ -43,6 +43,7 @@
     <Compile Include="AppConfiguration.cs" />
     <Compile Include="GameDAL.cs" />
     <Compile Include="HelperDAL.cs" />
+    <Compile Include="NumbersDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

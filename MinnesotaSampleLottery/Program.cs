@@ -12,7 +12,7 @@ namespace MinnesotaSampleLottery
     {
         static void Main(string[] args)
         {
-            SampleApplication();
+            TestDraw();
         }
 
         public static void SampleApplication()
@@ -53,6 +53,15 @@ namespace MinnesotaSampleLottery
             }
 
         end: ;
+        }
+
+        public static void TestDraw()
+        {
+            System.Console.WriteLine("This is just a test to pull draw numbers");
+            System.Console.WriteLine("\nEnter a DrawId to pull the DrawNumbers");
+            int userinput = System.Console.ReadLine().ToInt();
+
+
         }
     }
 }
